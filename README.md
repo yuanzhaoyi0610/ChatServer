@@ -7,4 +7,4 @@ rm -rf *
 cmake ..
 make
 
-需要安装nginx服务启动
+需要安装nginx服务启动  mysql redis 开发环境配置
