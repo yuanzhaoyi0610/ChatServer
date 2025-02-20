@@ -1,5 +1,6 @@
 set -x
-rm -rf 'pwd'/build/*
-cd 'pwd'/build &&
-    cmake .. &&
-    make
+rm -rf "$PWD/build/*"
+cd "$PWD/build" || exit 1
+cmake ..
+make
+
